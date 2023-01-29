@@ -1,0 +1,62 @@
+:root {
+  --primary-color: #101010;
+  --secondary-color: #8c00ff;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 48px;
+}
+
+.menuItem {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  font-family: Inter;
+  font-size: 24px;
+}
+
+body {
+  background-color: #efefef;
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-family: Inter;
+  font-size: 48px;
+  color: var(--primary-color);
+  line-height: 130%;
+}
+
+a {
+  font-family: Inter;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--primary-color);
+}
+
+.introduction {
+  margin: 64px 48px;
+}
+
+footer {
+  margin: 48px 24px;
+  font-family: Inter;
+  font-size: 24px;
+  text-align: center;
+}

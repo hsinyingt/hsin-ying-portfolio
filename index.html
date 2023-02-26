@@ -26,21 +26,35 @@
     <link href="/src/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div class="header" id="header">
-      <div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
         <a href="/index.html">
           <img
             src="https://d2kq0urxkarztv.cloudfront.net/5f57c4cef078790075a3c356/3420326/upload-1e3ffa44-56fd-4e74-b1e9-75d5002f9bd3.png?w=127&e=webp&nll=true"
             alt="logo"
-            width="48"
+            width="40"
           />
         </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menuItem" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="/about.html">CV</a>
+            <a class="nav-link" href="/work.html">Works</a>
+          </div>
+        </div>
       </div>
-      <div class="menuItem">
-        <a href="/about.html">CV</a>
-        <a href="/work.html">Works</a>
-      </div>
-    </div>
+    </nav>
+
     <div class="introduction">
       <h1>Hello, I'm Hsin-Ying👋,</h1>
       <h2>

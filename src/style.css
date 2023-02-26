@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #101010;
+  --primary-color: #f7f5f5;
   --secondary-color: #8c00ff;
 }
 
@@ -28,7 +28,7 @@
   display: flex;
   justify-content: flex-end;
   gap: 16px;
-  background-color: #efefef;
+  background-color: #252525;
 }
 
 .nav-link {
@@ -48,13 +48,13 @@
 }
 
 body {
-  background-color: #efefef;
+  background-color: #252525;
 }
 
 h1 {
   font-family: Inter;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: Medium;
   color: var(--primary-color);
 }
 

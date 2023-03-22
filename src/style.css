@@ -106,13 +106,14 @@ footer {
   text-align: center;
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 32px;
-    text-align: center;
-  }
-
+@media (max-width: 768px) {
   h2 {
-    font-size: 56px;
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 38px;
   }
 }

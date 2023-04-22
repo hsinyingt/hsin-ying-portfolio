@@ -116,8 +116,6 @@ p {
 
 .portrait {
   width: 50%;
-  display: block;
-  justify-content: flex-start;
 }
 
 .experienceBlock {

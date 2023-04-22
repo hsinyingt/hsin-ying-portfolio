@@ -114,19 +114,10 @@ p {
   margin-bottom: 40px;
 }
 
-.aboutContent {
-  justify-content: flex-start;
-  margin: 60px 200px;
-  display: flex;
-  gap: 80px;
-}
-
 .portrait {
-  width: 24%;
-}
-
-.experienceDetail {
-  margin: 60px 200px;
+  width: 50%;
+  display: block;
+  justify-content: flex-start;
 }
 
 .experienceBlock {

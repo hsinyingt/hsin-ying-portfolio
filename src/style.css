@@ -162,12 +162,12 @@ footer {
 
 @media (max-width: 768px) {
   h2 {
-    font-size: 38px;
+    font-size: 32px;
   }
 }
 
 @media (max-width: 576px) {
   h2 {
-    font-size: 38px;
+    font-size: 32px;
   }
 }

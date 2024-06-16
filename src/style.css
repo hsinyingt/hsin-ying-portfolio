@@ -58,13 +58,14 @@ body {
 h1 {
   font-family: Inter;
   font-size: 48px;
-  font-weight: Medium;
+  font-weight: 600;
   color: var(--primary-color);
 }
 
 h2 {
   font-family: Inter;
   font-size: 32px;
+  font-weight: 400;
   color: var(--primary-color);
   line-height: 130%;
 }

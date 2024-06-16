@@ -3,6 +3,10 @@
   --secondary-color: #8c00ff;
 }
 
+.container {
+  align-items: center;
+  max-width: 960px;
+}
 .menuItem {
   display: flex;
   justify-content: flex-end;
@@ -26,7 +30,7 @@
 
 .navbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 16px;
   background-color: #252525;
 }
@@ -53,14 +57,14 @@ body {
 
 h1 {
   font-family: Inter;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: Medium;
   color: var(--primary-color);
 }
 
 h2 {
   font-family: Inter;
-  font-size: 48px;
+  font-size: 32px;
   color: var(--primary-color);
   line-height: 130%;
 }
@@ -95,12 +99,15 @@ p {
   line-height: 130%;
 }
 .project-name {
+  padding-top: 16px;
+  font-weight: 500;
   font-family: Inter;
   font-size: 24px;
   color: var(--primary-color);
 }
 
 .description {
+  padding-top: 16px;
   font-family: Inter;
   font-size: 18px;
   color: var(--primary-color);
@@ -137,7 +144,7 @@ a:hover {
   text-decoration: none;
 }
 
-.introduction {
+.contentBlock {
   margin: 64px 48px;
 }
 

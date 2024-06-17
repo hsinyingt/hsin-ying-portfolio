@@ -4,6 +4,7 @@
 }
 
 .container {
+  margin-top: 40px;
   align-items: center;
   max-width: 960px;
 }
@@ -112,10 +113,6 @@ p {
   font-family: Inter;
   font-size: 18px;
   color: var(--primary-color);
-}
-
-.container {
-  margin-top: 40px;
 }
 
 .row {
